@@ -1,7 +1,7 @@
 /* eslint-env meteor */
 Package.describe({
   name: 'leaonline:testing',
-  version: '1.0.0',
+  version: '2.0.0',
   // Brief, one-line summary of the package.
   summary: 'Generic test helpers for all our projects',
   // URL to the Git repository containing the source code for this package.
@@ -14,7 +14,7 @@ Package.describe({
 })
 
 Package.onUse(function (api) {
-  api.versionsFrom('1.6')
+  api.versionsFrom(['3.0.1'])
   api.use('ecmascript')
   api.mainModule('testing.js')
 })
